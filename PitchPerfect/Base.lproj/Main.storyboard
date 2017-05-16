@@ -42,13 +42,30 @@
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uPd-df-grP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitch Perfect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9v-wd-s5N">
+                                <rect key="frame" x="85" y="159.5" width="204.5" height="48.5"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@rmacherla" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIe-3b-e4b">
+                                <rect key="frame" x="141" y="215" width="92" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="uZH-dt-yuQ" firstAttribute="top" secondItem="lPG-aL-oEG" secondAttribute="bottom" constant="20.5" id="0Q8-dK-8rE"/>
+                            <constraint firstItem="UIe-3b-e4b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-108" id="3vV-JO-sU2"/>
+                            <constraint firstItem="f9v-wd-s5N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-0.5" id="7s0-9h-sOa"/>
                             <constraint firstItem="lPG-aL-oEG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GdE-5a-31Y"/>
                             <constraint firstItem="qtr-Tp-qUd" firstAttribute="top" secondItem="uZH-dt-yuQ" secondAttribute="bottom" constant="16" id="GxO-3h-jbT"/>
                             <constraint firstItem="qtr-Tp-qUd" firstAttribute="centerX" secondItem="uZH-dt-yuQ" secondAttribute="centerX" id="If8-GW-eSd"/>
+                            <constraint firstItem="UIe-3b-e4b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qhx-C2-yBN"/>
+                            <constraint firstItem="f9v-wd-s5N" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-150" id="Vy9-2C-zvc"/>
                             <constraint firstItem="uZH-dt-yuQ" firstAttribute="centerX" secondItem="lPG-aL-oEG" secondAttribute="centerX" id="coo-t9-OT8"/>
                             <constraint firstItem="lPG-aL-oEG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gtU-Ve-YQp"/>
                         </constraints>
@@ -63,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1033" y="126"/>
+            <point key="canvasLocation" x="1032.8" y="125.4872563718141"/>
         </scene>
         <!--Play Sounds View Controller-->
         <scene sceneID="at8-HC-KAB">
@@ -152,6 +169,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="LIq-A2-qt2" firstAttribute="top" secondItem="g0g-rL-fvP" secondAttribute="bottom" id="OlR-hR-bVy"/>
                             <constraint firstItem="LIq-A2-qt2" firstAttribute="leading" secondItem="Jxd-KZ-OpP" secondAttribute="leadingMargin" id="cFa-T9-TVD"/>
